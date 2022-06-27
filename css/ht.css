@@ -1,0 +1,165 @@
+/* head */
+.head{
+    width: 100%;
+    height: 500px;
+    position:absolute;
+	left:50%;
+	top: 30%;
+	transform:translate(-50%,-50%);
+	z-index:1000;     
+	opacity: 0.8; 
+ 
+}
+.head .header{
+    margin-top: 22px;
+}
+#canvas{
+	width: 100%;
+	height: 500px;
+}
+.body1{
+    width: 100%;
+    height: 420px;
+}
+.body1 h2{
+    width: 100%;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    cursor: pointer;
+}
+.body1 h2:hover{
+    color: skyblue;
+    transition: 1s;
+}
+.body1 p:hover{
+    color: skyblue;
+    transition: 1s;
+}
+.body1 p{
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+}
+/* head// */
+/* body */
+.body{
+    width: 100%;
+}
+.body h2{
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 20px;
+}
+.body h2 span{
+    display: inline-block;
+    width: 48px;
+    border-bottom: 1px solid red;
+}
+.body h2 span:hover{
+    animation: xz  1s linear infinite ;
+  }
+.body p{
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #999999;
+    margin-top: 5px;
+}
+.body .box{
+  
+    text-align: center;
+    font-size: 100px;
+    line-height: 160px;
+    color: white;
+ 
+}
+.body .box span{
+    display: block;
+    font-size: 20px;
+    margin-top: -100px;
+}
+.body ul{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.body ul li{
+    float: left;
+    margin-left: 2.2%;
+    width: 30%;
+    height: 200px;
+    border-radius: 50px;
+    background-color: #73a2eb;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.body ul .l1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    background-color: #73a2eb;
+    margin-left: 43%;
+
+    
+}
+.body ul li:hover{
+    background-color: #6582ef;
+    transition: all 1s;
+}
+/* body// */
+/* bottom */
+.bottom{
+    width: 100%;
+}
+.bottom h2{
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 20px;
+}
+.bottom h2 span{
+    display: inline-block;
+    width: 96px;
+    border-bottom: 1px solid red;
+}
+.bottom h2 span:hover{
+  animation: xz  1s linear infinite ;
+}
+/* 动画 */
+@keyframes xz{
+   0%{transform: rotate(0deg);}
+    50%{transform: rotate(360deg);}
+}
+.bottom p{
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #999999;
+    margin-top: 5px;
+}
+.boxx{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 0;
+}
+.boxx .left{
+    width: 720px;
+}
+.boxx .right{
+    width: 730px;
+}
+.btm{
+    width: 100%;
+    font-size: 0;
+}
+.btm img{
+    width: 100%;
+    
+}

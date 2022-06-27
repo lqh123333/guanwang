@@ -1,0 +1,206 @@
+/* head */
+.head {
+    width: 100%;
+    margin: 0 auto;
+    height: 500px;
+    background: url(../img/联系我们/2.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.gh2 span:hover{
+    animation: xz  1s linear infinite ;
+  }
+/* 插件 */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:900");
+
+body {
+  
+    font-family: "Montserrat", sans-serif;
+ 
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+#mouse-cursor {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #000;
+    border: 4px solid #FF1744;
+    border-radius: 999px;
+    mix-blend-mode: difference;
+    pointer-events: none;
+    z-index: 999;
+    transition: top 0.025s ease, left 0.025s ease, transform 0.25s ease;
+   
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+}
+
+.wrapper ul {
+    padding: 0;
+    width: 100%;
+    height: 400px;
+    
+}
+.wrapper .uu1{
+    margin-top: 100px;
+}
+.wrapper ul .ll1{
+    margin-top: 10px;
+}
+.wrapper .uu1 li {
+    list-style: none;
+    font-size: 24px;
+   margin-bottom: 25px;
+    text-align: center;
+   
+}
+.wrapper ul li .iconfont{
+    font-size: 24px;
+}
+.wrapper ul li img{
+    position: absolute;
+    left: -35px;
+    top: 3px;
+   height: 32px;
+}
+
+.wrapper ul li a {
+    color: #fff;
+    text-decoration: none;
+    /* letter-spacing: 5px; */
+    text-transform: lowercase;
+    /* transition: 0.5s ease; */
+    position: relative;
+}
+
+/* .wrapper ul li a:hover {
+    letter-spacing: 15px;
+} */
+/* 插件// */
+/* body */
+.body {
+    width: 100%;
+}
+/* 公司简介 */
+.gsjj {
+    margin-top: 40px;
+    width: 100%;
+    height: 500px;
+    background: url(../img/联系我们/1.jpg) no-repeat 250px 30px;
+    background-size: 350px 400px;
+}
+
+.body .gsjj .gh2,.gp2 {
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.body .gsjj .gh2 {
+    padding-top: 100px;
+}
+
+.gsjj h2 span {
+    display: inline-block;
+    border-bottom: 1px solid red;
+}
+/* 插件 */
+.body .wrapper ul li {
+    list-style: none;
+    font-size: 18px;
+    padding: 10px;
+    
+    text-align: left;
+    margin-left: 15px;
+   
+}
+/*插件//  */
+
+.gsjj p {
+    margin-top: 3px;
+    
+    color: #7e7e7e;
+    cursor: pointer;
+}
+
+.gsjj .box {
+    width: 600px;
+    height: 300px;
+    background-color: #80abed;
+    opacity: 0.9;
+    margin-top: 40px;
+    margin-left: 35%;
+}
+
+.gsjj .box:hover {
+    transform: scale(1.1);
+    transition:all 1s;
+}
+
+
+
+/* 联系我们 */
+.lxwm {
+    margin-top: 40px;
+    width: 100%;
+    height: 500px;
+    background: url(../img/联系我们/3.jpg) no-repeat 250px 30px;
+    background-size: 350px 400px;
+}
+
+.body .lxwm .gh2,
+.gp2 {
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.body .lxwm .gh2 {
+    padding-top: 100px;
+}
+
+.lxwm h2 span {
+    display: inline-block;
+    border-bottom: 1px solid red;
+}
+
+.lxwm p {
+    margin-top: 3px;
+    color: #7e7e7e;
+}
+
+.lxwm .box {
+    width: 600px;
+    height: 200px;
+    background-color: #80abed;
+    opacity: 0.9;
+    margin-top: 40px;
+    margin-left: 35%;
+}
+
+.lxwm .box:hover {
+    transform: scale(1.1);
+    transition:all 1s;
+}
+.lxwm .box .l1{
+    margin-top: 20px;
+}
+
+.lxwm .box .a1:hover {
+    letter-spacing: 5px;
+    
+}
+/* 动画 */
+@keyframes xz{
+    0%{transform: rotate(0deg);}
+     50%{transform: rotate(360deg);}
+ }

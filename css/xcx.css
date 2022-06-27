@@ -1,0 +1,176 @@
+/* head */
+.head{
+    width: 100%;
+    margin: 0 auto;
+    height: 500px;
+    background: url(../img/小程序/1.png) no-repeat;
+    background-size: 100% 100%;
+}
+.body1{
+    width: 100%;
+    height: 420px;
+}
+.body1 h2{
+    width: 50%;
+    font-size: 40px;
+    color: white;
+    margin-left: 200px;
+    margin-top: 100px;
+    cursor: pointer;
+}
+.body1 h2:hover{
+    color: skyblue;
+    transition: 1s;
+}
+.body1 .p1{
+    width: 200px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid white;
+}
+.body1 p{
+    width: 50%;
+    font-size: 20px;
+    color: white;
+    margin-left: 200px;
+    cursor: pointer;
+}
+.body1 p:hover{
+    color: skyblue;
+    transition:all 1s;
+}
+/* head// */
+/* body */
+.body{
+    width: 100%;
+    
+}
+.body h2{
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 20px;
+    cursor: pointer;
+    
+}
+.body .p1{
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    color: #999999;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.body ul {
+    width: 90%;
+    height: 300px;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+.body ul li{
+    width: 26%;
+    height: 150px;
+    float: left;
+    cursor: pointer;
+}
+.body ul .l2{
+    margin-left: 80px;
+}
+.body ul li:hover{
+    transform: scale(1.1);
+    transition:all 1s;
+}
+.body ul li img{
+    float: left;
+    margin: 40px 0 0 30px;
+}
+.l2 .img{
+    width: 50px;
+    height: 50px;
+}
+.body ul li .left{
+    float: right;
+    margin-right: 25px;
+    margin-top: 15px;
+}
+.body ul li .left1{
+    margin-right: 40px;
+}
+.body ul li .left h3,p{
+    color: #fff8f7;
+}
+.body ul .l1{
+    text-align: center;
+}
+.body ul .l1 .h3,.hh3{
+    color: #fff8f7;
+    
+}
+.body ul .l1 .h3{
+    margin-top:40px;
+}
+/* body// */
+/* bottom */
+.bottom{
+    width: 100%;
+   
+}
+.bottom h2{
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.bottom p{
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    color: #999999;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+/* bt */
+.bottom .bt{
+    width: 100%;
+    height: 600px;
+    background: url(../img/320.png) no-repeat;
+    background-size: 100% 600px;
+    position: relative;
+    margin-top: 40px;
+} 
+
+.bt .right{
+    width: 600px;
+    position: absolute;
+    top: 118px;
+    left: 700px;
+}
+.bt .right .iconfont{
+    color: blue;
+}
+.bt .right p{
+    margin-top: 14px;
+    text-align: left;
+    cursor: pointer;
+}
+.bt .right span{
+    color: #fff;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.bt .right .pp1{
+    margin-top: 5px;
+    color: #fff;
+    margin-left: 12px;
+    font-size: 18px;
+}
+.bt .right .pp1:hover{
+    color: aqua;
+    transition:all 1s;
+}
+.bt .right p span:hover{
+    transition:all 1s;
+    color: aqua;
+}
